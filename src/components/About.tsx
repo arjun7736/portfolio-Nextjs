@@ -6,11 +6,11 @@ import card from "../../assets/card.png"
 import Image from "next/image"
 
 export default function About() {
-    return (
+    return ( 
         <div className="max-w-[1000px] mx-auto " id="about">
 
             <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semifold p-4 mb-4">About <span className="text-orange-400">Me</span></h1>
-            <div className="grid grid-cols-8 gap-6 place-items-center">
+            <div className="grid px-6 md:p-0 md:grid-cols-8 gap-6 place-items-center">
 
                 <div className="w-full col-span-5 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
@@ -24,7 +24,7 @@ export default function About() {
                 </div>
 
 
-                <div className="w-full col-span-3 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
+                <div className="w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
                     <div className="flex flex-row p-6">
                         <Image src={pc} alt="book" className="w-auto h-[130px]" />
@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="w-full col-span-3 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
+                <div className="w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
                     <div className="flex flex-row p-6">
                         <Image src={finance} alt="book" className="w-auto h-[130px]" />
@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="w-full col-span-5 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
+                <div className="w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy"></div>
                     <div className="flex flex-row p-6">
                         <Image src={card} alt="book" className="w-auto h-[130px]" />

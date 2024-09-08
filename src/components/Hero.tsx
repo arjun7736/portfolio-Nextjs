@@ -16,7 +16,7 @@ export default function Hero() {
                     <h1 className="text-[#E48A57]">Arjun</h1>
                 </div>
                 <motion.div
-                    className="absolute left-[280px] top-[170px] " drag
+                    className=" hidden md:block absolute left-[280px] top-[170px] " drag
                 >
                     <Image src={cursor}
                         height="190"
@@ -27,7 +27,7 @@ export default function Hero() {
                     />
                 </motion.div>
                 <motion.div
-                    className="absolute right-[220px] top-[20px] " drag
+                    className="hidden md:block  absolute right-[220px] top-[20px] " drag
                 >
                     <Image src={lightnig}
                         height="190"
