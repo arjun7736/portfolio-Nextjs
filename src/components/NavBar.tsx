@@ -23,7 +23,7 @@ export default function NavBar() {
             }
         },
         closed: {
-            x: -100,
+            x: "-100%",
             transition: {
                 stiffness: 20,
                 damping: 15
